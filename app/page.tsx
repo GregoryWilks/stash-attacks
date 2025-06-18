@@ -497,6 +497,17 @@ export default function Home() {
         <div className="container py-12 px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2">
             <div>
+              <h2 className="text-2xl font-bold mb-4">Land Acknowledgement</h2>
+              <p>
+                I recognize the sovereignty and am eternally grateful to my ancestry from Lax
+                Kw’alaams and Kitsumkalum, the Lhoosk'uz Dené Nation who we are privileged to
+                support, and the Snuneymuxw, Quw’utsun’, Tla’amin, Snaw-naw-as, and Xwkwa’luxwum
+                people, lands, and ancestors on whose traditional and unceded lands I live, work, and
+                learn. Our work is only made possible through respectful and reciprocal relationships
+                with all Indigenous Nations by working together to undo harmful systemic structures.
+              </p>
+            </div>
+            <div className="md:text-right">
               <h2 className="text-2xl font-bold mb-4">Anastasia's HR Contracting</h2>
               <p className="mb-6">Designing Workplaces Where People Thrive</p>
               <div className="space-y-2">
@@ -505,30 +516,26 @@ export default function Home() {
                 <p>Location: Vancouver, Canada</p>
               </div>
             </div>
-            <div className="flex flex-col md:items-end justify-between">
-              <div className="flex space-x-4">
-                <Link href="https://linkedin.com" className="text-white hover:text-[#f69358]">
-                  <Linkedin size={24} />
-                </Link>
-                <Link href="https://facebook.com" className="text-white hover:text-[#f69358]">
-                  <Facebook size={24} />
-                </Link>
-                <Link href="https://instagram.com" className="text-white hover:text-[#f69358]">
-                  <Instagram size={24} />
-                </Link>
-                <Link href="https://pinterest.com" className="text-white hover:text-[#f69358]">
-                  <Pinterest size={24} />
-                </Link>
-              </div>
-              <div className="mt-8 md:mt-0">
-                <Link href="/privacy-policy" className="text-white hover:text-[#f69358]">
-                  Privacy Policy
-                </Link>
-              </div>
-            </div>
           </div>
-          <div className="border-t border-white/20 mt-8 pt-8 text-center">
+          <div className="border-t border-white/20 mt-8 pt-8 flex flex-col items-center gap-4 md:flex-row md:justify-between">
+            <div className="flex space-x-4">
+              <Link href="https://linkedin.com" className="text-white hover:text-[#f69358]">
+                <Linkedin size={24} />
+              </Link>
+              <Link href="https://facebook.com" className="text-white hover:text-[#f69358]">
+                <Facebook size={24} />
+              </Link>
+              <Link href="https://instagram.com" className="text-white hover:text-[#f69358]">
+                <Instagram size={24} />
+              </Link>
+              <Link href="https://pinterest.com" className="text-white hover:text-[#f69358]">
+                <Pinterest size={24} />
+              </Link>
+            </div>
             <p>&copy; {new Date().getFullYear()} Anastasia's HR Contracting. All rights reserved.</p>
+            <Link href="/privacy-policy" className="text-white hover:text-[#f69358]">
+              Privacy Policy
+            </Link>
           </div>
         </div>
       </footer>
