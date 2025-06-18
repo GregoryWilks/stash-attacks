@@ -251,6 +251,17 @@ export default function ServicesPage() {
         <div className="container py-12 px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2">
             <div>
+              <h2 className="text-2xl font-bold mb-4">Land Acknowledgement</h2>
+              <p>
+                I recognize the sovereignty and am eternally grateful to my ancestry from Lax
+                Kw’alaams and Kitsumkalum, the Lhoosk'uz Dené Nation who we are privileged to
+                support, and the Snuneymuxw, Quw’utsun’, Tla’amin, Snaw-naw-as, and Xwkwa’luxwum
+                people, lands, and ancestors on whose traditional and unceded lands I live, work, and
+                learn. Our work is only made possible through respectful and reciprocal relationships
+                with all Indigenous Nations by working together to undo harmful systemic structures.
+              </p>
+            </div>
+            <div className="md:text-right">
               <h2 className="text-2xl font-bold mb-4">Anastasia's HR Contracting</h2>
               <p className="mb-6">Designing Workplaces Where People Thrive</p>
               <div className="space-y-2">
@@ -259,87 +270,83 @@ export default function ServicesPage() {
                 <p>Location: Vancouver, Canada</p>
               </div>
             </div>
-            <div className="flex flex-col md:items-end justify-between">
-              <div className="flex space-x-4">
-                <Link href="https://linkedin.com" className="text-white hover:text-[#f69358]">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5"
-                  >
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                    <rect width="4" height="12" x="2" y="9" />
-                    <circle cx="4" cy="4" r="2" />
-                  </svg>
-                </Link>
-                <Link href="https://facebook.com" className="text-white hover:text-[#f69358]">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5"
-                  >
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                  </svg>
-                </Link>
-                <Link href="https://instagram.com" className="text-white hover:text-[#f69358]">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5"
-                  >
-                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-                  </svg>
-                </Link>
-                <Link href="https://pinterest.com" className="text-white hover:text-[#f69358]">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-5 w-5"
-                  >
-                    <line x1="12" x2="12" y1="8" y2="16" />
-                    <line x1="8" x2="16" y1="12" y2="12" />
-                  </svg>
-                </Link>
-              </div>
-              <div className="mt-8 md:mt-0">
-                <Link href="/privacy-policy" className="text-white hover:text-[#f69358]">
-                  Privacy Policy
-                </Link>
-              </div>
-            </div>
           </div>
-          <div className="border-t border-white/20 mt-8 pt-8 text-center">
+          <div className="border-t border-white/20 mt-8 pt-8 flex flex-col items-center gap-4 md:flex-row md:justify-between">
+            <div className="flex space-x-4">
+              <Link href="https://linkedin.com" className="text-white hover:text-[#f69358]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-5 w-5"
+                >
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                  <rect width="4" height="12" x="2" y="9" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </Link>
+              <Link href="https://facebook.com" className="text-white hover:text-[#f69358]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-5 w-5"
+                >
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                </svg>
+              </Link>
+              <Link href="https://instagram.com" className="text-white hover:text-[#f69358]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-5 w-5"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                </svg>
+              </Link>
+              <Link href="https://pinterest.com" className="text-white hover:text-[#f69358]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-5 w-5"
+                >
+                  <line x1="12" x2="12" y1="8" y2="16" />
+                  <line x1="8" x2="16" y1="12" y2="12" />
+                </svg>
+              </Link>
+            </div>
             <p>&copy; {new Date().getFullYear()} Anastasia's HR Contracting. All rights reserved.</p>
+            <Link href="/privacy-policy" className="text-white hover:text-[#f69358]">
+              Privacy Policy
+            </Link>
           </div>
         </div>
       </footer>
