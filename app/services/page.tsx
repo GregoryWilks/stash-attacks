@@ -5,12 +5,19 @@ import { Button } from "@/components/ui/button"
 export default function ServicesPage() {
   return (
     <div className="flex flex-col min-h-screen bg-[#e7a8b4]">
-      <header className="border-b sticky top-0 z-40 bg-[#c54a71]">
+      <header
+        className="border-b sticky top-0 z-40 bg-cover bg-center"
+        style={{ backgroundImage: "url('/website-navbar.svg')" }}
+      >
         <div className="container flex h-20 items-center justify-between py-4">
           <Link href="/" className="flex items-center gap-2">
-            <h1 className="font-serif text-2xl font-bold text-[#133b4c]">
-              Anastasia's <span className="text-[#41184a]">HR Contracting</span>
-            </h1>
+            <Image
+              src="/anastasias-hr-contracting-logo.svg"
+              alt="Anastasia's HR Contracting"
+              width={48}
+              height={48}
+              priority
+            />
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             <div className="group relative">
@@ -124,7 +131,7 @@ export default function ServicesPage() {
 
       <div className="w-full">
         <Image
-          src="/placeholder.svg?height=400&width=1920"
+          src="/anastasias-hr-contracting-logo.png"
           alt="Our Services"
           width={1920}
           height={400}
@@ -247,7 +254,10 @@ export default function ServicesPage() {
         </section>
       </main>
 
-      <footer className="bg-[#039899] text-white">
+      <footer
+        className="text-white bg-cover bg-center"
+        style={{ backgroundImage: "url('/website-footer.svg')" }}
+      >
         <div className="container py-12 px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2">
             <div>
