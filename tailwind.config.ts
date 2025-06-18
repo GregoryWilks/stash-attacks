@@ -19,6 +19,10 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Century", "Cormorant Garamond", "Eczar", "sans-serif"],
+        serif: ["Cormorant Garamond", "Eczar", "serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

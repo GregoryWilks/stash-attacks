@@ -4,43 +4,43 @@ import { Button } from "@/components/ui/button"
 
 export default function ServicesPage() {
   return (
-    <div className="flex flex-col min-h-screen bg-[#fcf8ed]">
-      <header className="border-b sticky top-0 z-40 bg-[#fcf8ed]">
+    <div className="flex flex-col min-h-screen bg-[#e7a8b4]">
+      <header className="border-b sticky top-0 z-40 bg-[#c54a71]">
         <div className="container flex h-20 items-center justify-between py-4">
           <Link href="/" className="flex items-center gap-2">
-            <h1 className="font-serif text-2xl font-bold text-[#569121]">
-              Anastasia's <span className="text-[#605246]">HR Contracting</span>
+            <h1 className="font-serif text-2xl font-bold text-[#133b4c]">
+              Anastasia's <span className="text-[#41184a]">HR Contracting</span>
             </h1>
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             <div className="group relative">
               <Link
                 href="/services"
-                className="text-sm font-medium text-[#569121] transition-colors py-2 border-b-2 border-[#569121]"
+                className="text-sm font-medium text-[#133b4c] transition-colors py-2 border-b-2 border-[#133b4c]"
               >
                 OUR SERVICES
               </Link>
               <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
-                  <Link href="#consulting" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="#consulting" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     On-Demand HR Consulting
                   </Link>
-                  <Link href="#cultural" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="#cultural" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Cultural Competency & Inclusion
                   </Link>
-                  <Link href="#talent" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="#talent" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Talent Management & Leadership
                   </Link>
-                  <Link href="#mediation" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="#mediation" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Workplace Mediation & Conflict Resolution
                   </Link>
-                  <Link href="#policy" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="#policy" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     HR Policy & Documentation
                   </Link>
-                  <Link href="#change" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="#change" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Change Management
                   </Link>
-                  <Link href="#regulatory" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="#regulatory" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Regulatory Guidance
                   </Link>
                 </div>
@@ -49,22 +49,22 @@ export default function ServicesPage() {
             <div className="group relative">
               <Link
                 href="/story"
-                className="text-sm font-medium text-[#605246] hover:text-[#569121] transition-colors py-2"
+                className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2"
               >
                 OUR STORY
               </Link>
               <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
-                  <Link href="/story#who-we-are" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="/story#who-we-are" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Who We Are
                   </Link>
-                  <Link href="/story#mission" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="/story#mission" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Our Mission
                   </Link>
-                  <Link href="/story#values" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="/story#values" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Our Values
                   </Link>
-                  <Link href="/story#approach" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="/story#approach" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Our Approach
                   </Link>
                 </div>
@@ -73,31 +73,31 @@ export default function ServicesPage() {
             <div className="group relative">
               <Link
                 href="/articles"
-                className="text-sm font-medium text-[#605246] hover:text-[#569121] transition-colors py-2"
+                className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2"
               >
                 ARTICLES
               </Link>
               <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
-                  <Link href="/articles#cultural-hr" className="block text-sm text-[#605246] hover:text-[#569121] py-1">
+                  <Link href="/articles#cultural-hr" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     The Power of Culturally-Informed HR
                   </Link>
                   <Link
                     href="/articles#building-teams"
-                    className="block text-sm text-[#605246] hover:text-[#569121] py-1"
+                    className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1"
                   >
                     Building Better Teams: A Guide for Leaders
                   </Link>
                   <Link
                     href="/articles#navigating-change"
-                    className="block text-sm text-[#605246] hover:text-[#569121] py-1"
+                    className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1"
                   >
                     Navigating Change: HR Strategies
                   </Link>
                 </div>
               </div>
             </div>
-            <Link href="/contact" className="text-sm font-medium text-[#605246] hover:text-[#569121] transition-colors">
+            <Link href="/contact" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors">
               CONTACT US
             </Link>
           </nav>
@@ -134,11 +134,11 @@ export default function ServicesPage() {
       </div>
 
       <main className="flex-1">
-        <section className="w-full py-16 md:py-24 bg-[#fcf8ed]">
+        <section className="w-full py-16 md:py-24 bg-[#e7a8b4]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#569121]">Our Services</h1>
-              <p className="text-lg text-[#605246]">
+              <h1 className="text-4xl md:text-5xl font-bold text-[#133b4c]">Our Services</h1>
+              <p className="text-lg text-[#41184a]">
                 Tailored HR solutions designed to meet the unique needs of your organization. We offer a comprehensive
                 range of services to help you build a thriving workplace.
               </p>
@@ -159,12 +159,12 @@ export default function ServicesPage() {
                 />
               </div>
               <div className="space-y-6">
-                <h2 className="text-3xl font-bold text-[#569121]">On-Demand HR Consulting</h2>
-                <p className="text-[#605246]">
+                <h2 className="text-3xl font-bold text-[#133b4c]">On-Demand HR Consulting</h2>
+                <p className="text-[#41184a]">
                   Flexible contract support designed to adapt with your organization. Gain senior-level guidance when
                   and how you need it—without the commitment of a full-time executive.
                 </p>
-                <ul className="space-y-2 text-[#605246]">
+                <ul className="space-y-2 text-[#41184a]">
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full bg-[#f69358]"></div>
                     <span>Strategic HR planning and implementation</span>
@@ -187,16 +187,16 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        <section id="cultural" className="w-full py-16 bg-[#fcf8ed]">
+        <section id="cultural" className="w-full py-16 bg-[#e7a8b4]">
           <div className="container px-4 md:px-6">
             <div className="grid gap-12 lg:grid-cols-2 items-center">
               <div className="order-2 lg:order-1 space-y-6">
-                <h2 className="text-3xl font-bold text-[#569121]">Cultural Competency & Inclusion</h2>
-                <p className="text-[#605246]">
+                <h2 className="text-3xl font-bold text-[#133b4c]">Cultural Competency & Inclusion</h2>
+                <p className="text-[#41184a]">
                   Programs, workshops, and policies that help create workplaces where everyone belongs. With lived
                   Indigenous experience and a deep commitment to reconciliation, we guide you toward true inclusion.
                 </p>
-                <ul className="space-y-2 text-[#605246]">
+                <ul className="space-y-2 text-[#41184a]">
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full bg-[#f69358]"></div>
                     <span>Indigenous cultural awareness training</span>
@@ -230,7 +230,7 @@ export default function ServicesPage() {
 
         {/* Additional service sections would continue here */}
 
-        <section className="w-full py-16 md:py-24 bg-[#569121] text-white">
+        <section className="w-full py-16 md:py-24 bg-[#133b4c] text-white">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-3xl font-bold">Ready to Transform Your HR Approach?</h2>
@@ -239,7 +239,7 @@ export default function ServicesPage() {
               </p>
               <div>
                 <Link href="/contact">
-                  <Button className="bg-white text-[#569121] hover:bg-[#fcf8ed]">Contact Us</Button>
+                  <Button className="bg-white text-[#133b4c] hover:bg-[#e7a8b4]">Contact Us</Button>
                 </Link>
               </div>
             </div>
@@ -247,7 +247,7 @@ export default function ServicesPage() {
         </section>
       </main>
 
-      <footer className="bg-[#605246] text-white">
+      <footer className="bg-[#039899] text-white">
         <div className="container py-12 px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2">
             <div>
