@@ -96,7 +96,7 @@ export default function ContactPage() {
           src="/anastasias-hr-contracting-logo.png"
           alt="Contact Us"
           width={1920}
-          height={100}
+          height={80}
           className="w-full object-cover"
           priority
         />
