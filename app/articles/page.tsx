@@ -24,15 +24,16 @@ export default function ArticlesPage() {
               <Link href="/services" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2">
                 OUR SERVICES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
-                  <Link href="/services#consulting" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">On-Demand HR Consulting</Link>
-                  <Link href="/services#cultural" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Cultural Competency & Inclusion</Link>
-                  <Link href="/services#talent" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Talent Management & Leadership</Link>
-                  <Link href="/services#mediation" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Workplace Mediation & Conflict Resolution</Link>
-                  <Link href="/services#policy" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">HR Policy & Documentation</Link>
-                  <Link href="/services#change" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Change Management</Link>
-                  <Link href="/services#regulatory" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Regulatory Guidance</Link>
+                  <Link href="/services#consulting" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Comprehensive HR Consulting</Link>
+                  <Link href="/services#recruitment" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Full-Cycle Recruitment</Link>
+                  <Link href="/services#policy" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">HR Policy & Process Development</Link>
+                  <Link href="/services#hris" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">HRIS Implementation</Link>
+                  <Link href="/services#culture" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">People & Culture Consulting</Link>
+                  <Link href="/services#employee-relations" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Employee Relations</Link>
+                  <Link href="/services#training" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Training & Development</Link>
+                  <Link href="/services#individual-support" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Support for Individuals</Link>
                 </div>
               </div>
             </div>
@@ -40,7 +41,7 @@ export default function ArticlesPage() {
               <Link href="/story" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2">
                 OUR STORY
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/story#who-we-are" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Who We Are</Link>
                   <Link href="/story#mission" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Our Mission</Link>
@@ -53,7 +54,7 @@ export default function ArticlesPage() {
               <Link href="/articles" className="text-sm font-medium text-[#133b4c] transition-colors py-2 border-b-2 border-[#133b4c]">
                 ARTICLES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/articles#cultural-hr" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">The Power of Culturally-Informed HR</Link>
                   <Link href="/articles#building-teams" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Building Better Teams: A Guide for Leaders</Link>
@@ -91,7 +92,7 @@ export default function ArticlesPage() {
           src="/anastasias-hr-contracting-logo.png"
           alt="Articles"
           width={1920}
-          height={400}
+          height={200}
           className="w-full object-cover"
           priority
         />
@@ -100,9 +101,52 @@ export default function ArticlesPage() {
       <main className="flex-1">
         <section className="w-full py-16 md:py-24 bg-[#e7a8b4]">
           <div className="container px-4 md:px-6">
-            <div className="max-w-3xl mx-auto text-center space-y-6">
+            <div className="max-w-3xl mx-auto space-y-6 text-center">
               <h1 className="text-4xl md:text-5xl font-bold text-[#133b4c]">Articles</h1>
-              <p className="text-lg text-[#41184a]">Coming soon.</p>
+              <p className="text-lg text-[#41184a]">Welcome to our insights hub. Here, we share our knowledge, experiences, and reflections on how human resources can uplift people, empower organizations, and drive meaningful change.</p>
+              <p className="text-lg text-[#41184a]">Whether you're an HR professional, a small business owner, or a community leader, we invite you to explore topics that matter to modern workplaces—especially those shaped by culture, inclusion, and compassion.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="cultural-hr" className="w-full py-16 md:py-24 bg-[#baece4]">
+          <div className="container px-4 md:px-6">
+            <div className="max-w-3xl mx-auto space-y-4">
+              <h2 className="text-3xl font-bold text-[#133b4c]">The Power of Culturally-Informed HR</h2>
+              <p className="text-[#41184a]">In a world of templated policies and one-size-fits-all consulting, culturally-informed HR stands apart.</p>
+              <p className="text-[#41184a]">At Anastasia’s HR Consulting, we draw from lived Indigenous experience to create systems that reflect community values, honor identity, and dismantle harmful workplace structures. This article explores how culturally grounded HR practices foster inclusion, psychological safety, and real accountability—especially within Indigenous Nations, tech startups, and hospitality sectors.</p>
+              <p className="text-[#41184a]">Learn how HR that respects story, place, and people can create lasting change.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="building-teams" className="w-full py-16 md:py-24 bg-[#e7a8b4]">
+          <div className="container px-4 md:px-6">
+            <div className="max-w-3xl mx-auto space-y-4">
+              <h2 className="text-3xl font-bold text-[#133b4c]">Building Better Teams: A Guide for Leaders</h2>
+              <p className="text-[#41184a]">Hiring is just the beginning. The real challenge? Nurturing teams that are strong, values-driven, and built to last.</p>
+              <p className="text-[#41184a]">From recruitment and onboarding to conflict resolution and leadership development, this guide offers practical strategies for managers and founders. Learn how to align your team around purpose, support continuous learning, and lead with empathy—whether you're in gaming, tech, or community-focused organizations.</p>
+              <p className="text-[#41184a]">Discover how to invest in people—not just positions.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="navigating-change" className="w-full py-16 md:py-24 bg-[#baece4]">
+          <div className="container px-4 md:px-6">
+            <div className="max-w-3xl mx-auto space-y-4">
+              <h2 className="text-3xl font-bold text-[#133b4c]">Navigating Change: HR Strategies for Evolving Organizations</h2>
+              <p className="text-[#41184a]">Organizational change is inevitable—but burnout, miscommunication, and disengagement don’t have to be.</p>
+              <p className="text-[#41184a]">In this article, we cover how to manage change with transparency and care. Whether you're restructuring, scaling, or shifting to hybrid work models, you’ll find strategies for guiding your people through transition while maintaining clarity, compliance, and trust.</p>
+              <p className="text-[#41184a]">Equip yourself with tools to lead through change—not just survive it.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="w-full py-16 md:py-24 bg-[#e7a8b4]">
+          <div className="container px-4 md:px-6">
+            <div className="max-w-3xl mx-auto space-y-4 text-center">
+              <h2 className="text-3xl font-bold text-[#133b4c]">Want more?</h2>
+              <p className="text-[#41184a]">We’re always working on new content—from leadership tips to culturally responsive HR policy development. Check back soon or follow us on LinkedIn for the latest updates from Anastasia’s HR Consulting.</p>
             </div>
           </div>
         </section>

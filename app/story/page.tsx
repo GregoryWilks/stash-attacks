@@ -24,15 +24,16 @@ export default function StoryPage() {
               <Link href="/services" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2">
                 OUR SERVICES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
-                  <Link href="/services#consulting" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">On-Demand HR Consulting</Link>
-                  <Link href="/services#cultural" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Cultural Competency & Inclusion</Link>
-                  <Link href="/services#talent" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Talent Management & Leadership</Link>
-                  <Link href="/services#mediation" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Workplace Mediation & Conflict Resolution</Link>
-                  <Link href="/services#policy" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">HR Policy & Documentation</Link>
-                  <Link href="/services#change" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Change Management</Link>
-                  <Link href="/services#regulatory" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Regulatory Guidance</Link>
+                  <Link href="/services#consulting" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Comprehensive HR Consulting</Link>
+                  <Link href="/services#recruitment" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Full-Cycle Recruitment</Link>
+                  <Link href="/services#policy" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">HR Policy & Process Development</Link>
+                  <Link href="/services#hris" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">HRIS Implementation</Link>
+                  <Link href="/services#culture" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">People & Culture Consulting</Link>
+                  <Link href="/services#employee-relations" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Employee Relations</Link>
+                  <Link href="/services#training" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Training & Development</Link>
+                  <Link href="/services#individual-support" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Support for Individuals</Link>
                 </div>
               </div>
             </div>
@@ -40,7 +41,7 @@ export default function StoryPage() {
               <Link href="/story" className="text-sm font-medium text-[#133b4c] transition-colors py-2 border-b-2 border-[#133b4c]">
                 OUR STORY
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/story#who-we-are" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Who We Are</Link>
                   <Link href="/story#mission" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Our Mission</Link>
@@ -53,7 +54,7 @@ export default function StoryPage() {
               <Link href="/articles" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2">
                 ARTICLES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/articles#cultural-hr" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">The Power of Culturally-Informed HR</Link>
                   <Link href="/articles#building-teams" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Building Better Teams: A Guide for Leaders</Link>
@@ -91,7 +92,7 @@ export default function StoryPage() {
           src="/anastasias-hr-contracting-logo.png"
           alt="Our Story"
           width={1920}
-          height={400}
+          height={200}
           className="w-full object-cover"
           priority
         />
@@ -100,9 +101,65 @@ export default function StoryPage() {
       <main className="flex-1">
         <section className="w-full py-16 md:py-24 bg-[#e7a8b4]">
           <div className="container px-4 md:px-6">
-            <div className="max-w-3xl mx-auto text-center space-y-6">
+            <div className="max-w-3xl mx-auto space-y-6 text-center">
               <h1 className="text-4xl md:text-5xl font-bold text-[#133b4c]">Our Story</h1>
-              <p className="text-lg text-[#41184a]">Coming soon.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="who-we-are" className="w-full py-16 md:py-24 bg-[#baece4]">
+          <div className="container px-4 md:px-6">
+            <div className="max-w-3xl mx-auto space-y-4">
+              <h2 className="text-3xl font-bold text-[#133b4c]">Who We Are</h2>
+              <p className="text-[#41184a]">
+                Anastasia’s HR Consulting is an Indigenous-owned and woman-led human resources firm based in Nanaimo, British Columbia. We specialize in supporting small to medium-sized organizations across Indigenous Nations, video game development studios, tech companies, and the restaurant and hospitality industries.
+              </p>
+              <p className="text-[#41184a]">
+                Rooted in lived experience and driven by a deep understanding of the unique challenges facing modern workplaces, our consulting practice is grounded in empathy, accountability, and cultural integrity. As proud members of the Lax Kw’alaams and Kitsumkalum communities, we are committed to building respectful, reciprocal relationships with all Indigenous Nations and organizations we work alongside.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="mission" className="w-full py-16 md:py-24 bg-[#e7a8b4]">
+          <div className="container px-4 md:px-6">
+            <div className="max-w-3xl mx-auto space-y-4">
+              <h2 className="text-3xl font-bold text-[#133b4c]">Our Mission</h2>
+              <p className="text-[#41184a]">
+                We are committed to creating workplaces where people feel valued, understood, and able to contribute fully. Our mission is to empower individuals and organizations to be their authentic selves by removing workplace obstacles, fostering cultures of transparency and inclusion, and streamlining HR processes that support your team in doing their best work.
+              </p>
+              <p className="text-[#41184a]">We don’t just “do HR”—we build people-first systems that make your workplace stronger, more resilient, and more human.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="values" className="w-full py-16 md:py-24 bg-[#baece4]">
+          <div className="container px-4 md:px-6">
+            <div className="max-w-3xl mx-auto space-y-4">
+              <h2 className="text-3xl font-bold text-[#133b4c]">Our Values</h2>
+              <ul className="list-disc list-inside space-y-2 text-[#41184a]">
+                <li><strong>Respect</strong> – We honor every individual's story and contribution.</li>
+                <li><strong>Integrity</strong> – Transparency, honesty, and ethical action guide every decision.</li>
+                <li><strong>Inclusion</strong> – Our work actively advances diversity, equity, and reconciliation.</li>
+                <li><strong>Innovation</strong> – We bring creativity and curiosity to every challenge.</li>
+                <li><strong>Collaboration</strong> – Success is built together, through genuine partnership.</li>
+                <li><strong>Empowerment</strong> – We uplift others by fostering confidence, growth, and shared leadership.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="approach" className="w-full py-16 md:py-24 bg-[#e7a8b4]">
+          <div className="container px-4 md:px-6">
+            <div className="max-w-3xl mx-auto space-y-4">
+              <h2 className="text-3xl font-bold text-[#133b4c]">Our Approach</h2>
+              <p className="text-[#41184a]">
+                Our consulting services are deeply informed by hands-on experience and cultural knowledge. We understand the real-world challenges faced by today’s organizations—whether they operate in fast-paced digital environments or community-based settings.
+              </p>
+              <p className="text-[#41184a]">
+                We provide comprehensive HR services including full-cycle recruitment and onboarding, employee relations and conflict resolution, workplace investigations and policy development, leadership and employee training, diversity and inclusion strategy, HRIS implementation, and individual services like resume support and interview coaching.
+              </p>
+              <p className="text-[#41184a]">We operate with a culturally informed lens and a commitment to undoing harmful systemic structures. With the flexibility to support remote, hybrid, and in-person teams, our approach meets you where you are—and grows with you.</p>
             </div>
           </div>
         </section>
