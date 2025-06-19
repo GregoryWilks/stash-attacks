@@ -93,7 +93,7 @@ export default function ServicesPage() {
           src="/anastasias-hr-contracting-logo.png"
           alt="Our Services"
           width={1920}
-          height={100}
+          height={80}
           className="w-full object-cover"
           priority
         />

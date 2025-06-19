@@ -82,7 +82,7 @@ export default function FaqPage() {
           src="/anastasias-hr-contracting-logo.png"
           alt="FAQ"
           width={1920}
-          height={100}
+          height={80}
           className="w-full object-cover"
           priority
         />
@@ -96,11 +96,46 @@ export default function FaqPage() {
               <div className="space-y-4 text-[#41184a]">
                 <div>
                   <h2 className="font-semibold">What services do you offer?</h2>
-                  <p>We provide comprehensive HR consulting tailored to creative and Indigenous-focused organizations.</p>
+                  <p>
+                    We provide comprehensive HR consulting, full-cycle recruitment,
+                    HR policy &amp; process development, HRIS implementation,
+                    people &amp; culture consulting, employee relations,
+                    training &amp; development, and individual support such as
+                    resume, cover letter &amp; networking assistance.
+                  </p>
                 </div>
                 <div>
-                  <h2 className="font-semibold">How can I contact you?</h2>
-                  <p>You can reach us anytime through the contact form on our website or by phone.</p>
+                  <h2 className="font-semibold">Where are you located and do you work remotely?</h2>
+                  <p>Based in Vancouver, Canada, we support remote, hybrid, and in-person teams wherever you are.</p>
+                </div>
+                <div>
+                  <h2 className="font-semibold">How can I get started?</h2>
+                  <p>
+                    Reach out through our contact form or email, or book a free
+                    discovery call using the link on our homepage.
+                  </p>
+                </div>
+                <div>
+                  <h2 className="font-semibold">What is your mission?</h2>
+                  <p>
+                    We create workplaces where people feel valued by removing
+                    obstacles and fostering inclusive cultures.
+                  </p>
+                </div>
+                <div>
+                  <h2 className="font-semibold">What values guide your work?</h2>
+                  <p>
+                    Our values include respect, integrity, inclusion, innovation,
+                    collaboration, and empowerment.
+                  </p>
+                </div>
+                <div>
+                  <h2 className="font-semibold">What makes your approach unique?</h2>
+                  <p>
+                    Our consulting is culturally informed and grounded in real
+                    experience with a commitment to reconciliation and community
+                    partnership.
+                  </p>
                 </div>
               </div>
             </div>
