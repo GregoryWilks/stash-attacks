@@ -70,7 +70,12 @@ export default function ContactPage() {
               CONTACT US
             </Link>
           </nav>
-          <Button variant="outline" size="icon" className="md:hidden">
+          <Button
+            variant="outline"
+            size="icon"
+            aria-label="Open navigation menu"
+            className="md:hidden"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -179,7 +184,12 @@ export default function ContactPage() {
                         >
                           First name
                         </label>
-                        <Input id="first-name" placeholder="Enter your first name" className="bg-[#fcf8ed]" />
+                        <Input
+                          id="first-name"
+                          placeholder="Enter your first name"
+                          autoComplete="given-name"
+                          className="bg-[#fcf8ed]"
+                        />
                       </div>
                       <div className="space-y-2">
                         <label
@@ -188,7 +198,12 @@ export default function ContactPage() {
                         >
                           Last name
                         </label>
-                        <Input id="last-name" placeholder="Enter your last name" className="bg-[#fcf8ed]" />
+                        <Input
+                          id="last-name"
+                          placeholder="Enter your last name"
+                          autoComplete="family-name"
+                          className="bg-[#fcf8ed]"
+                        />
                       </div>
                     </div>
                     <div className="space-y-2">
@@ -198,7 +213,13 @@ export default function ContactPage() {
                       >
                         Email
                       </label>
-                      <Input id="email" type="email" placeholder="Enter your email" className="bg-[#fcf8ed]" />
+                      <Input
+                        id="email"
+                        type="email"
+                        placeholder="Enter your email"
+                        autoComplete="email"
+                        className="bg-[#fcf8ed]"
+                      />
                     </div>
                     <div className="space-y-2">
                       <label
@@ -207,7 +228,13 @@ export default function ContactPage() {
                       >
                         Phone
                       </label>
-                      <Input id="phone" type="tel" placeholder="Enter your phone number" className="bg-[#fcf8ed]" />
+                      <Input
+                        id="phone"
+                        type="tel"
+                        placeholder="Enter your phone number"
+                        autoComplete="tel"
+                        className="bg-[#fcf8ed]"
+                      />
                     </div>
                     <div className="space-y-2">
                       <label
@@ -216,7 +243,12 @@ export default function ContactPage() {
                       >
                         Subject
                       </label>
-                      <Input id="subject" placeholder="What is this regarding?" className="bg-[#fcf8ed]" />
+                      <Input
+                        id="subject"
+                        placeholder="What is this regarding?"
+                        autoComplete="off"
+                        className="bg-[#fcf8ed]"
+                      />
                     </div>
                     <div className="space-y-2">
                       <label
@@ -225,7 +257,12 @@ export default function ContactPage() {
                       >
                         Message
                       </label>
-                      <Textarea id="message" placeholder="Enter your message" className="min-h-[120px] bg-[#fcf8ed]" />
+                      <Textarea
+                        id="message"
+                        placeholder="Enter your message"
+                        autoComplete="off"
+                        className="min-h-[120px] bg-[#fcf8ed]"
+                      />
                     </div>
                     <Button className="w-full bg-[#133b4c] hover:bg-[#4a7e1c] text-white">Send Message</Button>
                   </form>
@@ -279,7 +316,7 @@ export default function ContactPage() {
           </div>
           <div className="border-t border-white/20 mt-8 pt-8 flex flex-col items-center gap-4 md:flex-row md:justify-between">
             <div className="flex space-x-4">
-              <Link href="https://linkedin.com" className="text-white hover:text-[#f69358]">
+              <Link href="https://linkedin.com" aria-label="LinkedIn" className="text-white hover:text-[#f69358]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -297,7 +334,7 @@ export default function ContactPage() {
                   <circle cx="4" cy="4" r="2" />
                 </svg>
               </Link>
-              <Link href="https://facebook.com" className="text-white hover:text-[#f69358]">
+              <Link href="https://facebook.com" aria-label="Facebook" className="text-white hover:text-[#f69358]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -313,7 +350,7 @@ export default function ContactPage() {
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                 </svg>
               </Link>
-              <Link href="https://instagram.com" className="text-white hover:text-[#f69358]">
+              <Link href="https://instagram.com" aria-label="Instagram" className="text-white hover:text-[#f69358]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -331,7 +368,7 @@ export default function ContactPage() {
                   <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
                 </svg>
               </Link>
-              <Link href="https://pinterest.com" className="text-white hover:text-[#f69358]">
+              <Link href="https://pinterest.com" aria-label="Pinterest" className="text-white hover:text-[#f69358]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

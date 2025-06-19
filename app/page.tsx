@@ -97,7 +97,12 @@ export default function Home() {
               CONTACT US
             </Link>
           </nav>
-          <Button variant="outline" size="icon" className="md:hidden">
+          <Button
+            variant="outline"
+            size="icon"
+            aria-label="Open navigation menu"
+            className="md:hidden"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -530,16 +535,16 @@ export default function Home() {
           </div>
           <div className="border-t border-white/20 mt-8 pt-8 flex flex-col items-center gap-4 md:flex-row md:justify-between">
             <div className="flex space-x-4">
-              <Link href="https://linkedin.com" className="text-white hover:text-[#f69358]">
+              <Link href="https://linkedin.com" aria-label="LinkedIn" className="text-white hover:text-[#f69358]">
                 <Linkedin size={24} />
               </Link>
-              <Link href="https://facebook.com" className="text-white hover:text-[#f69358]">
+              <Link href="https://facebook.com" aria-label="Facebook" className="text-white hover:text-[#f69358]">
                 <Facebook size={24} />
               </Link>
-              <Link href="https://instagram.com" className="text-white hover:text-[#f69358]">
+              <Link href="https://instagram.com" aria-label="Instagram" className="text-white hover:text-[#f69358]">
                 <Instagram size={24} />
               </Link>
-              <Link href="https://pinterest.com" className="text-white hover:text-[#f69358]">
+              <Link href="https://pinterest.com" aria-label="Pinterest" className="text-white hover:text-[#f69358]">
                 <Pinterest size={24} />
               </Link>
             </div>
