@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import CurrentYear from "@/components/current-year"
 
 export default function ArticlesPage() {
   return (
@@ -263,7 +264,7 @@ export default function ArticlesPage() {
                 </svg>
               </Link>
             </div>
-            <p>&copy; {new Date().getFullYear()} Anastasia's HR Contracting. All rights reserved.</p>
+            <p>&copy; <CurrentYear /> Anastasia's HR Contracting. All rights reserved.</p>
             <div className="flex space-x-4">
               <Link href="/privacy-policy" className="text-white hover:text-[#f69358]">
                 Privacy Policy

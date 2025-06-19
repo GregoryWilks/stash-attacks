@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, MapPin, Phone } from "lucide-react"
+import CurrentYear from "@/components/current-year"
 
 export default function ContactPage() {
   return (
@@ -419,7 +420,7 @@ export default function ContactPage() {
                 </svg>
               </Link>
             </div>
-            <p>&copy; {new Date().getFullYear()} Anastasia's HR Contracting. All rights reserved.</p>
+            <p>&copy; <CurrentYear /> Anastasia's HR Contracting. All rights reserved.</p>
             <div className="flex space-x-4">
               <Link href="/privacy-policy" className="text-white hover:text-[#f69358]">
                 Privacy Policy
