@@ -208,9 +208,14 @@ export default function StoryPage() {
               </Link>
             </div>
             <p>&copy; {new Date().getFullYear()} Anastasia's HR Contracting. All rights reserved.</p>
-            <Link href="/privacy-policy" className="text-white hover:text-[#f69358]">
-              Privacy Policy
-            </Link>
+            <div className="flex space-x-4">
+              <Link href="/privacy-policy" className="text-white hover:text-[#f69358]">
+                Privacy Policy
+              </Link>
+              <Link href="/faq" className="text-white hover:text-[#f69358]">
+                FAQ
+              </Link>
+            </div>
           </div>
         </div>
       </footer>
