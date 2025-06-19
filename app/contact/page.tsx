@@ -141,7 +141,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-medium text-[#41184a]">Phone</h3>
-                        <p className="text-[#41184a]">(555) 123-4567</p>
+                        <p className="text-[#41184a]">1-(778)-773-55213</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -150,7 +150,12 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-medium text-[#41184a]">Location</h3>
-                        <p className="text-[#41184a]">Vancouver, Canada</p>
+                        <p className="text-[#41184a]">
+                          4724 Uplands Drive<br />
+                          Nanaimo, BC<br />
+                          Canada<br />
+                          V9T 4S8
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -164,7 +169,7 @@ export default function ContactPage() {
                 </div>
                 <div className="pt-4">
                   <Image
-                    src="/placeholder.svg?height=300&width=500"
+                    src="/contact-page-photo.png"
                     alt="Our Office"
                     width={500}
                     height={300}
@@ -231,7 +236,7 @@ export default function ContactPage() {
                       <Input
                         id="phone"
                         type="tel"
-                        placeholder="Enter your phone number"
+                        placeholder="1-(778)-773-55213"
                         autoComplete="tel"
                         className="bg-[#fcf8ed]"
                       />
@@ -287,6 +292,28 @@ export default function ContactPage() {
         </section>
       </main>
 
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: "Anastasia's HR Contracting",
+            url: 'https://anastasia-hr.example.com/contact',
+            telephone: '1-(778)-773-55213',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '4724 Uplands Drive',
+              addressLocality: 'Nanaimo',
+              addressRegion: 'BC',
+              addressCountry: 'Canada',
+              postalCode: 'V9T 4S8',
+            },
+          }),
+        }}
+      />
+
       <footer
         className="text-white bg-cover bg-center"
         style={{ backgroundImage: "url('/website-footer.svg')" }}
@@ -309,8 +336,14 @@ export default function ContactPage() {
               <p className="mb-6">Designing Workplaces Where People Thrive</p>
               <div className="space-y-2">
                 <p>Email: info@yourdomain.com</p>
-                <p>Phone: (555) 123‑4567</p>
-                <p>Location: Vancouver, Canada</p>
+                <p>Phone: 1-(778)-773-55213</p>
+                <p>
+                  Location:
+                  <br />4724 Uplands Drive
+                  <br />Nanaimo, BC
+                  <br />Canada
+                  <br />V9T 4S8
+                </p>
               </div>
             </div>
           </div>

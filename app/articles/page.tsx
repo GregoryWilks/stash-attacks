@@ -180,8 +180,14 @@ export default function ArticlesPage() {
               <p className="mb-6">Designing Workplaces Where People Thrive</p>
               <div className="space-y-2">
                 <p>Email: info@yourdomain.com</p>
-                <p>Phone: (555) 123‑4567</p>
-                <p>Location: Vancouver, Canada</p>
+                <p>Phone: 1-(778)-773-55213</p>
+                <p>
+                  Location:
+                  <br />4724 Uplands Drive
+                  <br />Nanaimo, BC
+                  <br />Canada
+                  <br />V9T 4S8
+                </p>
               </div>
             </div>
           </div>
