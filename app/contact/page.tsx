@@ -27,7 +27,7 @@ export default function ContactPage() {
               <Link href="/services" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2">
                 OUR SERVICES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-[#fcf8ed] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/services#consulting" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Comprehensive HR Consulting</Link>
                   <Link href="/services#recruitment" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Full-Cycle Recruitment</Link>
@@ -37,6 +37,7 @@ export default function ContactPage() {
                   <Link href="/services#employee-relations" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Employee Relations</Link>
                   <Link href="/services#training" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Training & Development</Link>
                   <Link href="/services#individual-support" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Support for Individuals</Link>
+                  <Link href="/services#resume-support" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Resume, Cover Letter & Networking Support</Link>
                 </div>
               </div>
             </div>
@@ -44,7 +45,7 @@ export default function ContactPage() {
               <Link href="/story" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2">
                 OUR STORY
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-[#fcf8ed] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/story#who-we-are" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Who We Are</Link>
                   <Link href="/story#mission" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Our Mission</Link>
@@ -57,7 +58,7 @@ export default function ContactPage() {
               <Link href="/articles" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2">
                 ARTICLES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-[#fcf8ed] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/articles#cultural-hr" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">The Power of Culturally-Informed HR</Link>
                   <Link href="/articles#building-teams" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Building Better Teams: A Guide for Leaders</Link>
@@ -95,7 +96,7 @@ export default function ContactPage() {
           src="/anastasias-hr-contracting-logo.png"
           alt="Contact Us"
           width={1920}
-          height={200}
+          height={100}
           className="w-full object-cover"
           priority
         />
@@ -113,7 +114,7 @@ export default function ContactPage() {
           </div>
         </section>
 
-        <section className="w-full py-16 bg-[#baece4]">
+        <section className="w-full py-16 bg-[#fcf8ed]">
           <div className="container px-4 md:px-6">
             <div className="grid gap-12 lg:grid-cols-2">
               <div className="space-y-8">
@@ -178,7 +179,7 @@ export default function ContactPage() {
                         >
                           First name
                         </label>
-                        <Input id="first-name" placeholder="Enter your first name" className="bg-[#baece4]" />
+                        <Input id="first-name" placeholder="Enter your first name" className="bg-[#fcf8ed]" />
                       </div>
                       <div className="space-y-2">
                         <label
@@ -187,7 +188,7 @@ export default function ContactPage() {
                         >
                           Last name
                         </label>
-                        <Input id="last-name" placeholder="Enter your last name" className="bg-[#baece4]" />
+                        <Input id="last-name" placeholder="Enter your last name" className="bg-[#fcf8ed]" />
                       </div>
                     </div>
                     <div className="space-y-2">
@@ -197,7 +198,7 @@ export default function ContactPage() {
                       >
                         Email
                       </label>
-                      <Input id="email" type="email" placeholder="Enter your email" className="bg-[#baece4]" />
+                      <Input id="email" type="email" placeholder="Enter your email" className="bg-[#fcf8ed]" />
                     </div>
                     <div className="space-y-2">
                       <label
@@ -206,7 +207,7 @@ export default function ContactPage() {
                       >
                         Phone
                       </label>
-                      <Input id="phone" type="tel" placeholder="Enter your phone number" className="bg-[#baece4]" />
+                      <Input id="phone" type="tel" placeholder="Enter your phone number" className="bg-[#fcf8ed]" />
                     </div>
                     <div className="space-y-2">
                       <label
@@ -215,7 +216,7 @@ export default function ContactPage() {
                       >
                         Subject
                       </label>
-                      <Input id="subject" placeholder="What is this regarding?" className="bg-[#baece4]" />
+                      <Input id="subject" placeholder="What is this regarding?" className="bg-[#fcf8ed]" />
                     </div>
                     <div className="space-y-2">
                       <label
@@ -224,7 +225,7 @@ export default function ContactPage() {
                       >
                         Message
                       </label>
-                      <Textarea id="message" placeholder="Enter your message" className="min-h-[120px] bg-[#baece4]" />
+                      <Textarea id="message" placeholder="Enter your message" className="min-h-[120px] bg-[#fcf8ed]" />
                     </div>
                     <Button className="w-full bg-[#133b4c] hover:bg-[#4a7e1c] text-white">Send Message</Button>
                   </form>

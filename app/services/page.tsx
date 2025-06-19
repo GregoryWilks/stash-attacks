@@ -24,7 +24,7 @@ export default function ServicesPage() {
               <Link href="/services" className="text-sm font-medium text-[#133b4c] transition-colors py-2 border-b-2 border-[#133b4c]">
                 OUR SERVICES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-[#fcf8ed] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/services#consulting" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Comprehensive HR Consulting</Link>
                   <Link href="/services#recruitment" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Full-Cycle Recruitment</Link>
@@ -34,6 +34,7 @@ export default function ServicesPage() {
                   <Link href="/services#employee-relations" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Employee Relations</Link>
                   <Link href="/services#training" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Training & Development</Link>
                   <Link href="/services#individual-support" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Support for Individuals</Link>
+                  <Link href="/services#resume-support" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Resume, Cover Letter & Networking Support</Link>
                 </div>
               </div>
             </div>
@@ -41,7 +42,7 @@ export default function ServicesPage() {
               <Link href="/story" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2">
                 OUR STORY
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-[#fcf8ed] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/story#who-we-are" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Who We Are</Link>
                   <Link href="/story#mission" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Our Mission</Link>
@@ -54,7 +55,7 @@ export default function ServicesPage() {
               <Link href="/articles" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2">
                 ARTICLES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-[#fcf8ed] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/articles#cultural-hr" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">The Power of Culturally-Informed HR</Link>
                   <Link href="/articles#building-teams" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Building Better Teams: A Guide for Leaders</Link>
@@ -92,7 +93,7 @@ export default function ServicesPage() {
           src="/anastasias-hr-contracting-logo.png"
           alt="Our Services"
           width={1920}
-          height={200}
+          height={100}
           className="w-full object-cover"
           priority
         />
@@ -110,7 +111,7 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        <section id="consulting" className="w-full py-16 md:py-24 bg-[#baece4]">
+        <section id="consulting" className="w-full py-16 md:py-24 bg-[#fcf8ed]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto space-y-4">
               <h2 className="text-3xl font-bold text-[#133b4c]">Comprehensive HR Consulting</h2>
@@ -133,7 +134,7 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        <section id="policy" className="w-full py-16 md:py-24 bg-[#baece4]">
+        <section id="policy" className="w-full py-16 md:py-24 bg-[#fcf8ed]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto space-y-4">
               <h2 className="text-3xl font-bold text-[#133b4c]">HR Policy & Process Development</h2>
@@ -157,7 +158,7 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        <section id="culture" className="w-full py-16 md:py-24 bg-[#baece4]">
+        <section id="culture" className="w-full py-16 md:py-24 bg-[#fcf8ed]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto space-y-4">
               <h2 className="text-3xl font-bold text-[#133b4c]">People & Culture Consulting</h2>
@@ -181,7 +182,7 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        <section id="training" className="w-full py-16 md:py-24 bg-[#baece4]">
+        <section id="training" className="w-full py-16 md:py-24 bg-[#fcf8ed]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto space-y-4">
               <h2 className="text-3xl font-bold text-[#133b4c]">Training & Development Programs</h2>
@@ -196,6 +197,22 @@ export default function ServicesPage() {
           </div>
         </section>
 
+        <section id="resume-support" className="w-full py-16 md:py-24 bg-[#e7a8b4]">
+          <div className="container px-4 md:px-6">
+            <div className="max-w-3xl mx-auto space-y-4">
+              <h2 className="text-3xl font-bold text-[#133b4c]">Resume, Cover Letter & Networking Support</h2>
+              <p className="text-[#41184a]">A strong first impression can open the door to career-changing opportunities. Whether you're entering the workforce, transitioning industries, or aiming for the next level in your career, we offer personalized support to help you stand out—on paper and in person.</p>
+              <p className="text-[#41184a]">We work closely with individuals to develop professional tools that reflect their authentic voice and unique value:</p>
+              <ul className="list-disc list-inside space-y-2 text-[#41184a]">
+                <li><strong>Resume Writing & Optimization</strong> – From entry-level to executive, we help you craft resumes that are clear, tailored, and aligned with industry standards—highlighting your strengths and relevant experience.</li>
+                <li><strong>Cover Letter Development</strong> – We guide you in writing thoughtful, engaging cover letters that connect your personal story to the role you're applying for—helping you go beyond templates and generic intros.</li>
+                <li><strong>Networking & Outreach Coaching</strong> – Building the right connections can be just as important as submitting the perfect application. We offer guidance on how to network with confidence—online, in person, and within your industry—so you can access the opportunities that don’t always get posted.</li>
+              </ul>
+              <p className="text-[#41184a]">Our approach is empathetic, practical, and grounded in the belief that everyone deserves support in building their career with confidence and clarity.</p>
+            </div>
+          </div>
+        </section>
+
         <section id="individual-support" className="w-full py-16 md:py-24 bg-[#e7a8b4]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto space-y-4">
@@ -206,7 +223,7 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-[#baece4]">
+        <section className="w-full py-16 md:py-24 bg-[#fcf8ed]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto space-y-4 text-center">
               <h2 className="text-3xl font-bold text-[#133b4c]">Let’s Build Together</h2>

@@ -28,7 +28,7 @@ export default function Home() {
               >
                 OUR SERVICES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-[#fcf8ed] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/services#consulting" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Comprehensive HR Consulting</Link>
                   <Link href="/services#recruitment" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Full-Cycle Recruitment</Link>
@@ -38,6 +38,7 @@ export default function Home() {
                   <Link href="/services#employee-relations" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Employee Relations</Link>
                   <Link href="/services#training" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Training & Development</Link>
                   <Link href="/services#individual-support" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Support for Individuals</Link>
+                  <Link href="/services#resume-support" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Resume, Cover Letter & Networking Support</Link>
                 </div>
               </div>
             </div>
@@ -48,7 +49,7 @@ export default function Home() {
               >
                 OUR STORY
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-[#fcf8ed] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/story#who-we-are" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Who We Are
@@ -72,7 +73,7 @@ export default function Home() {
               >
                 ARTICLES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-[#fcf8ed] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/articles#cultural-hr" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     The Power of Culturally-Informed HR
@@ -122,7 +123,7 @@ export default function Home() {
           src="/anastasias-hr-contracting-logo.png"
           alt="Anastasia's HR Contracting"
           width={1920}
-          height={300}
+          height={150}
           className="w-full object-cover"
           priority
         />
@@ -145,7 +146,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-[#baece4]">
+        <section className="w-full py-16 md:py-24 bg-[#fcf8ed]">
           <div className="container px-4 md:px-6">
             <div className="grid gap-12 lg:grid-cols-2 items-center">
               <div className="space-y-6">
@@ -220,7 +221,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-[#baece4]">
+        <section className="w-full py-16 md:py-24 bg-[#fcf8ed]">
           <div className="container px-4 md:px-6">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-[#133b4c]">Our Services</h2>
@@ -280,6 +281,14 @@ export default function Home() {
                 <p className="text-[#41184a]">
                   Whether you need resume guidance, mock interviews, or personalized HR advice—we’re here for individuals
                   navigating job transitions and workplace challenges.
+                </p>
+              </div>
+              <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
+                <h3 className="text-xl font-bold text-[#133b4c] mb-3">Resume, Cover Letter & Networking Support</h3>
+                <p className="text-[#41184a]">
+                  Craft compelling career documents and build the confidence to connect. We help individuals create tailored resumes,
+                  write impactful cover letters, and develop effective networking strategies—whether you’re entering the workforce,
+                  making a career shift, or preparing for a new opportunity.
                 </p>
               </div>
             </div>
@@ -402,7 +411,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-[#baece4]">
+        <section className="w-full py-16 md:py-24 bg-[#fcf8ed]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-3xl font-bold text-[#133b4c]">Commitment to Reconciliation</h2>
@@ -471,7 +480,7 @@ export default function Home() {
               </p>
               <div>
                 <Link href="https://calendly.com/anastasias-hr/consultation" target="_blank" rel="noopener noreferrer">
-                  <Button className="bg-[#baece4] text-[#133b4c] hover:bg-[#e7a8b4]">Book Now</Button>
+                  <Button className="bg-[#fcf8ed] text-[#133b4c] hover:bg-[#e7a8b4]">Book Now</Button>
                 </Link>
               </div>
               <p className="text-sm pt-8">
