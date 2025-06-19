@@ -28,7 +28,7 @@ export default function Home() {
               >
                 OUR SERVICES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-[#f69e70] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/services#consulting" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     On-Demand HR Consulting
@@ -61,7 +61,7 @@ export default function Home() {
               >
                 OUR STORY
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-[#f69e70] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/story#who-we-are" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Who We Are
@@ -85,7 +85,7 @@ export default function Home() {
               >
                 ARTICLES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-[#f69e70] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/articles#cultural-hr" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     The Power of Culturally-Informed HR
@@ -158,7 +158,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-white">
+        <section className="w-full py-16 md:py-24 bg-[#f69e70]">
           <div className="container px-4 md:px-6">
             <div className="grid gap-12 lg:grid-cols-2 items-center">
               <div className="space-y-6">
@@ -196,8 +196,10 @@ export default function Home() {
             <div className="max-w-3xl mx-auto text-center space-y-8">
               <h2 className="text-3xl font-bold text-[#133b4c]">Our Mission</h2>
               <p className="text-lg text-[#41184a] italic">
-                To empower organizations to build thriving, respectful, and resilient workplaces by providing tailored
-                HR consulting rooted in cultural understanding, creativity, and proven best practices.
+                Anastasia’s HR Consulting is committed to creating environments where employees feel valued,
+                understood, and able to contribute fully. We empower individuals and organizations to be their
+                authentic selves by removing workplace obstacles, fostering a culture of transparency and inclusion,
+                and streamlining HR processes that support your team in doing their best work.
               </p>
 
               <h2 className="text-3xl font-bold text-[#133b4c] pt-8">Our Values</h2>
@@ -222,57 +224,75 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-[#f69358]">Collaboration</h3>
                   <p className="text-[#41184a]">Success is built together, through genuine partnership.</p>
                 </div>
+                <div className="space-y-2">
+                  <h3 className="text-xl font-bold text-[#f69358]">Empowerment</h3>
+                  <p className="text-[#41184a]">We uplift others by fostering confidence, growth, and shared leadership.</p>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-white">
+        <section className="w-full py-16 md:py-24 bg-[#f69e70]">
           <div className="container px-4 md:px-6">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-[#133b4c]">Our Services</h2>
             </div>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
-                <h3 className="text-xl font-bold text-[#133b4c] mb-3">On-Demand HR Consulting</h3>
+                <h3 className="text-xl font-bold text-[#133b4c] mb-3">Comprehensive HR Consulting</h3>
                 <p className="text-[#41184a]">
-                  Flexible contract support designed to adapt with your organization. Gain senior-level guidance when
-                  and how you need it—without the commitment of a full-time executive.
+                  Full-spectrum HR solutions tailored to Indigenous Nations, game development, tech, and hospitality. We
+                  cover the entire HR lifecycle with empathy, strategy, and industry-specific insight.
                 </p>
               </div>
               <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
-                <h3 className="text-xl font-bold text-[#133b4c] mb-3">Cultural Competency & Inclusion</h3>
+                <h3 className="text-xl font-bold text-[#133b4c] mb-3">Recruitment & Talent Acquisition</h3>
                 <p className="text-[#41184a]">
-                  Programs, workshops, and policies that help create workplaces where everyone belongs. With lived
-                  Indigenous experience and a deep commitment to reconciliation, we guide you toward true inclusion.
+                  From job descriptions and sourcing to interviews and onboarding—we help you attract passionate,
+                  qualified candidates who fit your culture and contribute meaningfully.
                 </p>
               </div>
               <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
-                <h3 className="text-xl font-bold text-[#133b4c] mb-3">Talent Management & Leadership</h3>
+                <h3 className="text-xl font-bold text-[#133b4c] mb-3">Policy & Process Development</h3>
                 <p className="text-[#41184a]">
-                  From recruitment and onboarding to career growth, retention, and succession planning, we help you
-                  invest in your people and build strong leaders at every level.
+                  We create and revise contracts, handbooks, and HR policies aligned with BC’s Employment Standards—ensuring
+                  compliance, clarity, and operational efficiency.
                 </p>
               </div>
               <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
-                <h3 className="text-xl font-bold text-[#133b4c] mb-3">Workplace Mediation & Conflict Resolution</h3>
+                <h3 className="text-xl font-bold text-[#133b4c] mb-3">HRIS Implementation</h3>
                 <p className="text-[#41184a]">
-                  Professional facilitation for challenging conversations, disputes, or transitions—helping you resolve
-                  issues with empathy and skill.
+                  Need help choosing or launching an HR software system? We support you through the research, selection,
+                  and integration process—making HR tech less overwhelming.
                 </p>
               </div>
               <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
-                <h3 className="text-xl font-bold text-[#133b4c] mb-3">HR Policy & Documentation</h3>
+                <h3 className="text-xl font-bold text-[#133b4c] mb-3">People & Culture Consulting</h3>
                 <p className="text-[#41184a]">
-                  Branded, compliant, and easy-to-use handbooks, templates, and forms tailored to your needs, ensuring
-                  your organization communicates clearly and operates smoothly.
+                  Build authentic, inclusive workplaces through strategic DEIB planning, employee engagement, and
+                  values-driven cultural alignment. Respect and belonging are our foundation.
                 </p>
               </div>
               <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
-                <h3 className="text-xl font-bold text-[#133b4c] mb-3">Change Management</h3>
+                <h3 className="text-xl font-bold text-[#133b4c] mb-3">Employee Relations & Investigations</h3>
                 <p className="text-[#41184a]">
-                  Support for navigating organizational shifts—expansion, mergers, restructuring, or seasonal
-                  changes—while keeping your people informed and engaged.
+                  We manage conflict resolution, performance issues, and offboarding with care. Our discreet, professional
+                  approach to investigations protects your people and your workplace.
+                </p>
+              </div>
+              <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
+                <h3 className="text-xl font-bold text-[#133b4c] mb-3">Training & Development Programs</h3>
+                <p className="text-[#41184a]">
+                  We deliver customized onboarding, leadership training, and skill-building sessions—equipping your team
+                  for continuous growth, accountability, and leadership success.
+                </p>
+              </div>
+              <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
+                <h3 className="text-xl font-bold text-[#133b4c] mb-3">Support for Individuals</h3>
+                <p className="text-[#41184a]">
+                  Whether you need resume guidance, mock interviews, or personalized HR advice—we’re here for individuals
+                  navigating job transitions and workplace challenges.
                 </p>
               </div>
             </div>
@@ -311,53 +331,27 @@ export default function Home() {
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white max-w-3xl px-4">
               <h2 className="text-3xl font-bold mb-6">Industries We Serve</h2>
+              <p className="mb-6 text-lg">
+                At Anastasia’s HR Consulting, we specialize in supporting small to medium-sized businesses with an
+                honest and empathetic approach to HR. We empower authenticity in every workplace we touch—especially
+                within the video gaming industry, restaurants, and Indigenous Nations.
+              </p>
+              <p className="mb-6 text-lg">Our expertise also extends across a wide range of sectors, including:</p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-lg">
                 <div>Creative Studios & Agencies</div>
                 <div>Indigenous Organizations & Enterprises</div>
                 <div>Technology & Startups</div>
-                <div>Community Groups & Nonprofits</div>
-                <div>Hospitality & Services</div>
                 <div>Education & Academia</div>
-                <div>Retail & Manufacturing</div>
+                <div>Restaurants</div>
               </div>
               <p className="mt-8 text-lg">
-                No matter your field, we bring insights from a diversity of sectors—so you get ideas and solutions
-                informed by a broad spectrum of experience.
+                No matter your field, we bring insight from a diverse spectrum of industries—delivering HR strategies
+                that are not only compliant but also culturally aware, practical, and people-first.
               </p>
             </div>
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-white">
-          <div className="container px-4 md:px-6">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-[#133b4c]">Client Stories & Testimonials</h2>
-            </div>
-            <div className="grid gap-8 md:grid-cols-3">
-              <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
-                <p className="text-[#41184a] italic mb-4">
-                  "Anastasia's deep understanding of people and culture transformed our approach to HR. Her solutions
-                  were practical, creative, and perfectly fit our team."
-                </p>
-                <p className="text-[#f69358] font-medium">— Managing Director, Design Agency</p>
-              </div>
-              <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
-                <p className="text-[#41184a] italic mb-4">
-                  "Her leadership and advocacy for Indigenous inclusion helped us build trust, communicate better, and
-                  grow as an organization."
-                </p>
-                <p className="text-[#f69358] font-medium">— Executive Director, Community Initiative</p>
-              </div>
-              <div className="bg-[#e7a8b4] p-6 rounded-lg shadow-sm border border-[#bcb5aa]">
-                <p className="text-[#41184a] italic mb-4">
-                  "From onboarding to policy design, Anastasia made HR easy and approachable. We always felt supported
-                  and understood."
-                </p>
-                <p className="text-[#f69358] font-medium">— Founder, Startup Collective</p>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <section className="w-full py-16 md:py-24 bg-[#e7a8b4]">
           <div className="container px-4 md:px-6">
@@ -421,7 +415,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-white">
+        <section className="w-full py-16 md:py-24 bg-[#f69e70]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-3xl font-bold text-[#133b4c]">Commitment to Reconciliation</h2>
@@ -437,25 +431,36 @@ export default function Home() {
         <section className="w-full py-16 md:py-24 bg-[#e7a8b4]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
-              <h2 className="text-3xl font-bold text-[#133b4c]">Frequently Asked Questions</h2>
+              <h2 className="text-3xl font-bold text-[#133b4c]">Why Choose Us?</h2>
               <div className="space-y-6 text-left">
                 <div>
-                  <h3 className="text-xl font-bold text-[#f69358]">Do you work with small businesses or startups?</h3>
+                  <h3 className="text-xl font-bold text-[#f69358]">Deep Industry Expertise:</h3>
                   <p className="text-[#41184a] mt-2">
-                    Yes! We support organizations of all sizes with flexible, scalable solutions.
+                    Our extensive background spans video game development, tech, Indigenous Nations, and the
+                    restaurant/hospitality sectors, enabling us to deliver highly specialized HR solutions. Whether it’s
+                    full-cycle recruitment, employee training programs, or DEIB initiatives, our hands-on experience
+                    ensures effective and practical HR support.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#f69358]">Can we book a one-time consultation?</h3>
+                  <h3 className="text-xl font-bold text-[#f69358]">Culturally Informed Approach:</h3>
                   <p className="text-[#41184a] mt-2">
-                    Absolutely. We offer both project-based and ongoing partnerships.
+                    As a 100% Indigenous-owned and woman-led business, we bring a culturally informed perspective to HR
+                    practices.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#f69358]">How do you approach confidentiality?</h3>
+                  <h3 className="text-xl font-bold text-[#f69358]">Adaptability to Remote & Hybrid Models:</h3>
                   <p className="text-[#41184a] mt-2">
-                    We treat all client information with the utmost discretion and care, always upholding privacy and
-                    trust.
+                    With the ongoing rise of remote and hybrid work environments, our consulting services are designed
+                    to meet the security and operational challenges of these models.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-[#f69358]">Comprehensive Service Offering:</h3>
+                  <p className="text-[#41184a] mt-2">
+                    We offer multi process outsourcing that encompasses recruitment, training, benefits administration,
+                    policy development, and more. This all-in-one approach reduces
                   </p>
                 </div>
               </div>
@@ -478,8 +483,8 @@ export default function Home() {
                 Explore how Anastasia's HR Contracting can support your team.
               </p>
               <div>
-                <Link href="/contact">
-                  <Button className="bg-white text-[#133b4c] hover:bg-[#e7a8b4]">Book Now</Button>
+                <Link href="https://calendly.com/anastasias-hr/consultation" target="_blank" rel="noopener noreferrer">
+                  <Button className="bg-[#f69e70] text-[#133b4c] hover:bg-[#e7a8b4]">Book Now</Button>
                 </Link>
               </div>
               <p className="text-sm pt-8">
