@@ -28,29 +28,16 @@ export default function Home() {
               >
                 OUR SERVICES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-[#f69e70] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
-                  <Link href="/services#consulting" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
-                    On-Demand HR Consulting
-                  </Link>
-                  <Link href="/services#cultural" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
-                    Cultural Competency & Inclusion
-                  </Link>
-                  <Link href="/services#talent" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
-                    Talent Management & Leadership
-                  </Link>
-                  <Link href="/services#mediation" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
-                    Workplace Mediation & Conflict Resolution
-                  </Link>
-                  <Link href="/services#policy" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
-                    HR Policy & Documentation
-                  </Link>
-                  <Link href="/services#change" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
-                    Change Management
-                  </Link>
-                  <Link href="/services#regulatory" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
-                    Regulatory Guidance
-                  </Link>
+                  <Link href="/services#consulting" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Comprehensive HR Consulting</Link>
+                  <Link href="/services#recruitment" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Full-Cycle Recruitment</Link>
+                  <Link href="/services#policy" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">HR Policy & Process Development</Link>
+                  <Link href="/services#hris" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">HRIS Implementation</Link>
+                  <Link href="/services#culture" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">People & Culture Consulting</Link>
+                  <Link href="/services#employee-relations" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Employee Relations</Link>
+                  <Link href="/services#training" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Training & Development</Link>
+                  <Link href="/services#individual-support" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">Support for Individuals</Link>
                 </div>
               </div>
             </div>
@@ -61,7 +48,7 @@ export default function Home() {
               >
                 OUR STORY
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-[#f69e70] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/story#who-we-are" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     Who We Are
@@ -85,7 +72,7 @@ export default function Home() {
               >
                 ARTICLES
               </Link>
-              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-[#f69e70] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+              <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-[#baece4] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
                   <Link href="/articles#cultural-hr" className="block text-sm text-[#41184a] hover:text-[#133b4c] py-1">
                     The Power of Culturally-Informed HR
@@ -135,7 +122,7 @@ export default function Home() {
           src="/anastasias-hr-contracting-logo.png"
           alt="Anastasia's HR Contracting"
           width={1920}
-          height={600}
+          height={300}
           className="w-full object-cover"
           priority
         />
@@ -158,7 +145,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-[#f69e70]">
+        <section className="w-full py-16 md:py-24 bg-[#baece4]">
           <div className="container px-4 md:px-6">
             <div className="grid gap-12 lg:grid-cols-2 items-center">
               <div className="space-y-6">
@@ -233,7 +220,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-[#f69e70]">
+        <section className="w-full py-16 md:py-24 bg-[#baece4]">
           <div className="container px-4 md:px-6">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-[#133b4c]">Our Services</h2>
@@ -415,7 +402,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-[#f69e70]">
+        <section className="w-full py-16 md:py-24 bg-[#baece4]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-3xl font-bold text-[#133b4c]">Commitment to Reconciliation</h2>
@@ -484,7 +471,7 @@ export default function Home() {
               </p>
               <div>
                 <Link href="https://calendly.com/anastasias-hr/consultation" target="_blank" rel="noopener noreferrer">
-                  <Button className="bg-[#f69e70] text-[#133b4c] hover:bg-[#e7a8b4]">Book Now</Button>
+                  <Button className="bg-[#baece4] text-[#133b4c] hover:bg-[#e7a8b4]">Book Now</Button>
                 </Link>
               </div>
               <p className="text-sm pt-8">
