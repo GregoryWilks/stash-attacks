@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
-export default function ServicesPage() {
+export default function ArticlesPage() {
   return (
     <div className="flex flex-col min-h-screen bg-[#e7a8b4]">
       <header
@@ -21,7 +21,7 @@ export default function ServicesPage() {
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             <div className="group relative">
-              <Link href="/services" className="text-sm font-medium text-[#133b4c] transition-colors py-2 border-b-2 border-[#133b4c]">
+              <Link href="/services" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2">
                 OUR SERVICES
               </Link>
               <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
@@ -50,7 +50,7 @@ export default function ServicesPage() {
               </div>
             </div>
             <div className="group relative">
-              <Link href="/articles" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors py-2">
+              <Link href="/articles" className="text-sm font-medium text-[#133b4c] transition-colors py-2 border-b-2 border-[#133b4c]">
                 ARTICLES
               </Link>
               <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
@@ -89,7 +89,7 @@ export default function ServicesPage() {
       <div className="w-full">
         <Image
           src="/anastasias-hr-contracting-logo.png"
-          alt="Our Services"
+          alt="Articles"
           width={1920}
           height={400}
           className="w-full object-cover"
@@ -101,7 +101,7 @@ export default function ServicesPage() {
         <section className="w-full py-16 md:py-24 bg-[#e7a8b4]">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#133b4c]">Our Services</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#133b4c]">Articles</h1>
               <p className="text-lg text-[#41184a]">Coming soon.</p>
             </div>
           </div>
