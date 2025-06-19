@@ -22,10 +22,6 @@ export const metadata = {
     locale: 'en_CA',
     type: 'website',
   },
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-  },
   generator: 'v0.dev',
   icons: {
     icon: '/favicon/favicon.ico',
@@ -34,6 +30,11 @@ export const metadata = {
     other: [{ rel: 'mask-icon', url: '/favicon/favicon.svg' }],
   },
   manifest: '/favicon/site.webmanifest'
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({
