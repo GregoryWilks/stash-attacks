@@ -10,8 +10,7 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <header
-        className="border-b sticky top-0 z-40 bg-cover bg-center"
-        style={{ backgroundImage: "url('/website-navbar.svg')" }}
+        className="border-b sticky top-0 z-40 bg-cover bg-center bg-[url('/website-navbar.svg')] dark:bg-[url('/darkmode-website-navbar.svg')]"
       >
         <div className="container flex h-20 items-center justify-between py-4">
           <Link href="/" className="flex items-center gap-2">
@@ -316,8 +315,7 @@ export default function ContactPage() {
       />
 
       <footer
-        className="text-white bg-cover bg-center"
-        style={{ backgroundImage: "url('/website-footer.svg')" }}
+        className="text-white bg-cover bg-center bg-[url('/website-footer.svg')] dark:bg-[url('/darkmode-website-footer.svg')]"
       >
         <div className="container py-12 px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2">
