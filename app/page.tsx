@@ -97,8 +97,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <Link href="/contact" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-              CONTACT US
             <Link href="/contact" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors">
               {t('contact_us')}
             </Link>
@@ -144,8 +142,6 @@ export default function Home() {
         <section className="w-full py-16 md:py-24 bg-background">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
-              <h1 className="text-4xl md:text-5xl font-bold text-primary">
-                Designing Workplaces Where People Thrive
               <h1 className="text-4xl md:text-5xl font-bold text-[#133b4c]">
                 {t('designing_workplaces')}
               </h1>
