@@ -270,7 +270,7 @@ export default function ContactPage() {
                         className="min-h-[120px] bg-card"
                       />
                     </div>
-                    <Button className="w-full bg-primary hover:bg-primary/80 text-white">Send Message</Button>
+                    <Button className="w-full bg-primary hover:bg-primary/80 text-primary-foreground">Send Message</Button>
                   </form>
                 </div>
               </div>
@@ -286,7 +286,7 @@ export default function ContactPage() {
                 Schedule a free 30-minute discovery call to discuss your HR needs and explore how we can support your organization.
               </p>
               <div>
-                <Button className="bg-primary hover:bg-primary/80 text-white">Book Now</Button>
+                <Button className="bg-primary hover:bg-primary/80 text-primary-foreground">Book Now</Button>
               </div>
             </div>
           </div>

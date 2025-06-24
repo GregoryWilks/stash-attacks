@@ -303,7 +303,7 @@ export default function Home() {
             </div>
             <div className="mt-8 text-center">
               <Link href="/services">
-                <Button className="bg-primary hover:bg-primary/80 text-white">View All Services</Button>
+                <Button className="bg-primary hover:bg-primary/80 text-primary-foreground">View All Services</Button>
               </Link>
             </div>
           </div>
@@ -471,14 +471,14 @@ export default function Home() {
               </div>
               <div className="pt-8">
                 <Link href="/contact">
-                  <Button className="bg-primary hover:bg-primary/80 text-white">Contact Us</Button>
+                  <Button className="bg-primary hover:bg-primary/80 text-primary-foreground">Contact Us</Button>
                 </Link>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="w-full py-16 md:py-24 bg-primary text-white">
+        <section className="w-full py-16 md:py-24 bg-primary text-primary-foreground">
           <div className="container px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-3xl font-bold">Get Started Today</h2>
