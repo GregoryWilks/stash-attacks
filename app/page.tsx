@@ -1,10 +1,13 @@
+'use client'
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Facebook, Instagram, Linkedin, PinIcon as Pinterest } from "lucide-react"
 import CurrentYear from "@/components/current-year"
+import { useTranslation } from "react-i18next"
 
 export default function Home() {
+  const { t } = useTranslation()
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <header
@@ -27,7 +30,7 @@ export default function Home() {
                 href="/services"
                 className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
               >
-                OUR SERVICES
+                {t('our_services')}
               </Link>
               <div className="absolute left-0 top-full mt-2 w-60 rounded-md bg-card shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
@@ -48,7 +51,7 @@ export default function Home() {
                 href="/story"
                 className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
               >
-                OUR STORY
+                {t('our_story')}
               </Link>
               <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-card shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
@@ -72,7 +75,7 @@ export default function Home() {
                 href="/articles"
                 className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
               >
-                ARTICLES
+                {t('articles')}
               </Link>
               <div className="absolute left-0 top-full mt-2 w-64 rounded-md bg-card shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                 <div className="p-4 space-y-2">
@@ -96,6 +99,8 @@ export default function Home() {
             </div>
             <Link href="/contact" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               CONTACT US
+            <Link href="/contact" className="text-sm font-medium text-[#41184a] hover:text-[#133b4c] transition-colors">
+              {t('contact_us')}
             </Link>
           </nav>
           <Button
@@ -141,6 +146,8 @@ export default function Home() {
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h1 className="text-4xl md:text-5xl font-bold text-primary">
                 Designing Workplaces Where People Thrive
+              <h1 className="text-4xl md:text-5xl font-bold text-[#133b4c]">
+                {t('designing_workplaces')}
               </h1>
               <p className="text-lg text-foreground leading-relaxed">
                 At Anastasia's HR Contracting, we know that behind every successful business is a tapestry of unique
@@ -526,7 +533,7 @@ export default function Home() {
             </div>
             <div className="md:text-right">
               <h2 className="text-2xl font-bold mb-4">Anastasia's HR Contracting</h2>
-              <p className="mb-6">Designing Workplaces Where People Thrive</p>
+              <p className="mb-6">{t('designing_workplaces')}</p>
               <div className="space-y-2">
                 <p>Email: info@yourdomain.com</p>
                 <p>Phone: 1-(778)-773-55213</p>
