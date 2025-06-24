@@ -181,6 +181,7 @@ export default function Home() {
                   width={600}
                   height={500}
                   className="rounded-lg object-cover shadow-lg"
+                  style={{ width: "auto", height: "auto" }}
                 />
               </div>
             </div>
@@ -331,6 +332,7 @@ export default function Home() {
             width={1920}
             height={600}
             className="w-full object-cover"
+            style={{ width: "auto", height: "auto" }}
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white max-w-3xl px-4">
@@ -506,6 +508,7 @@ export default function Home() {
           width={1920}
           height={400}
           className="w-full object-cover"
+          style={{ width: "auto", height: "auto" }}
         />
       </div>
 
